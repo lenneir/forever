@@ -39,3 +39,21 @@ function addZeroDate(component){
 }
 
 displayCurrentDate();
+
+
+function displayCurrentDateName(){
+    let currentDate = new Date();
+    let weekDay = currentDate.getDay();
+
+    const weekDayName = [
+    'Sun', 'Mon', 'Tues',
+    'Wed', 'Thu', 'Fri',
+    'Sat'
+    ]
+
+    let dateString = `${weekDayName[weekDay]}`;
+
+    document.getElementById("weekDay").innerText = dateString;
+}
+
+displayCurrentDateName();
