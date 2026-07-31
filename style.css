@@ -17,7 +17,7 @@ body{
     align-items: center;
     color: rgb(253, 236, 253);
     font-family: "Calistoga";
-    font-size: 55px;
+    font-size: 60px;
     justify-content: center;
     line-height: 1em;
     margin: 0;
@@ -39,9 +39,10 @@ body{
 
 .dates{
     display: flex;
-    font-size: 30px;
-    gap: 20px;
+    font-size: 32px;
+    gap: 10px;
+    letter-spacing: 1px;
+    line-height: 35px;
     justify-content: center;
     align-items: center;
-    line-height: 35px;
 }
