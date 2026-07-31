@@ -46,9 +46,9 @@ function displayCurrentDateName(){
     let weekDay = currentDate.getDay();
 
     const weekDayName = [
-    'Sun', 'Mon', 'Tues',
-    'Wed', 'Thu', 'Fri',
-    'Sat'
+    'SUN', 'MON', 'TUES',
+    'WED', 'THU', 'FRI',
+    'SAT'
     ]
 
     let dateString = `${weekDayName[weekDay]}`;
